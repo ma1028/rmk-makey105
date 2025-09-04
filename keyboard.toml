@@ -37,7 +37,7 @@ Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal          
 Tab           Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9        
 CapsLock      A    S   D    F   G   H   J   K     L    Semicolon Quote                    Enter     Kp4     Kp5     Kp6        KpPlus
 LShift        Z    X   C    V   B   N   M   Comma Dot  Slash                 RShift       Up        Kp1     Kp2     Kp3         
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
 """
 
 # layer 1 :
@@ -49,7 +49,7 @@ Grave    User0 User1 User2 User3 User4 User5 Kc7 Kc8 Kc9   Kc0  Minus     Equal 
 Tab            Q     W     E     R     T     Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9          
 CapsLock       A     S     D     F     G     H   J   K     L    Semicolon Quote                    Enter     Kp4     Kp5     Kp6        KpPlus
 LShift         Z     X     C     V     B     N   M   Comma Dot  Slash                 RShift       Up        Kp1     Kp2     Kp3          
-LCtrl    LGui  LAlt  A     Space B     C     D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui  LAlt  A     Space B     C     D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
 """
 
 # layer 2 :
@@ -61,7 +61,7 @@ Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal          
 Tab           Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9          
 CapsLock      A    S   D    F   G   H   J   K     L    Semicolon Quote                    Enter     Kp4     Kp5     Kp6        KpPlus
 LShift        Z    X   C    V   B   N   M   Comma Dot  Slash                 RShift       Up        Kp1     Kp2     Kp3          
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
 """ 
 
 # layer 3 :
@@ -73,7 +73,7 @@ Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal          
 Tab           Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9          
 CapsLock      A    S   D    F   G   H   J   K     L    Semicolon Quote                    Enter     Kp4     Kp5     Kp6        KpPlus
 LShift        Z    X   C    V   B   N   M   Comma Dot  Slash                 RShift       Up        Kp1     Kp2     Kp3          
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
 """
 
 [light]
