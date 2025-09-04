@@ -37,19 +37,19 @@ Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal       No 
 Tab      No   Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9        No
 CapsLock No   A    S   D    F   G   H   J   K     L    Semicolon Quote       No           Enter     Kp4     Kp5     Kp6        KpPlus
 LShift   No   Z    X   C    V   B   N   M   Comma Dot  Slash     No          RShift       Up        Kp1     Kp2     Kp3        No
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui No        RCtrl       Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl     No          Left         Down      Right   Kp0     KpDot      Enter
 """
 
 # layer 1 :
 [[layer]]
 name = "Photoshop_layer" #optional name for the layer
 keys = """
-Escape   F1    F2    F3    F4    F5    F6    F7  F8  F9  F10 F11       F12         PrintScreen  Delete    Home    End     PageUp     PageDown        
-Grave    User0 User1 User2 User3 User4 User5 Kc7 Kc8 Kc9 Kc0 Minus     Equal       No           Backspace NumLock KpSlash KpAsterisk KpMinus
+Escape   F1    F2    F3    F4    F5    F6    F7  F8  F9    F10  F11       F12         PrintScreen  Delete    Home    End     PageUp     PageDown        
+Grave    User0 User1 User2 User3 User4 User5 Kc7 Kc8 Kc9   Kc0  Minus     Equal       No           Backspace NumLock KpSlash KpAsterisk KpMinus
 Tab      No    Q     W     E     R     T     Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9        No
 CapsLock No    A     S     D     F     G     H   J   K     L    Semicolon Quote       No           Enter     Kp4     Kp5     Kp6        KpPlus
 LShift   No    Z     X     C     V     B     N   M   Comma Dot  Slash     No          RShift       Up        Kp1     Kp2     Kp3        No
-LCtrl    LGui  LAlt  A     Space B     C     D   E   RAlt  RGui No        RCtrl       Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui  LAlt  A     Space B     C     D   E   RAlt  RGui RCtrl     No          Left         Down      Right   Kp0     KpDot      Enter
 """
 
 # layer 2 :
@@ -61,7 +61,7 @@ Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal       No 
 Tab      No   Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9        No
 CapsLock No   A    S   D    F   G   H   J   K     L    Semicolon Quote       No           Enter     Kp4     Kp5     Kp6        KpPlus
 LShift   No   Z    X   C    V   B   N   M   Comma Dot  Slash     No          RShift       Up        Kp1     Kp2     Kp3        No
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui No        RCtrl       Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl     No          Left         Down      Right   Kp0     KpDot      Enter
 """
 
 # layer 3 :
@@ -73,7 +73,7 @@ Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal       No 
 Tab      No   Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9        No
 CapsLock No   A    S   D    F   G   H   J   K     L    Semicolon Quote       No           Enter     Kp4     Kp5     Kp6        KpPlus
 LShift   No   Z    X   C    V   B   N   M   Comma Dot  Slash     No          RShift       Up        Kp1     Kp2     Kp3        No
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui No        RCtrl       Left         Down      Right   Kp0     KpDot      Enter
+LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl     No          Left         Down      Right   Kp0     KpDot      Enter
 """
 
 [light]
