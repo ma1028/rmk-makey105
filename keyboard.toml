@@ -79,12 +79,12 @@ LCtrl    LGui LAlt No  No  Space No  No  No  RAlt  No  RGui      RCtrl       Lef
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
 capslock.pin = "P0_24"
-# capslock.low_active = true
+capslock.low_active = true
 # scrolllock.pin = "PA3"
 # scrolllock.low_active = true
 # Just ignore if no light pin is used for it
 numslock.pin = "P0_13"
-# numslock.low_active = true
+numslock.low_active = true
 
 [ble]
 enabled = true
@@ -102,8 +102,8 @@ adc_divider_total = 2820
 # enabled = false
 
 # Whether to use the MCU's internal pull-up resistor, default to false 是否使用MCU的内部上拉电阻，默认为false
-#internal_pullup = true  # 使用mcu内部上拉电阻
-low_active = true
+internal_pullup = true  # 使用mcu内部上拉电阻
+#low_active = true
 
 [rmk]
 # The number of available BLE profiles 配对蓝牙设备的数量
