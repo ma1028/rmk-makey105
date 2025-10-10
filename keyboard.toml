@@ -97,7 +97,7 @@ adc_divider_measured = 2000
 adc_divider_total = 2820
 
 
-[storage]
+# [storage]
 # Storage feature is enabled by default
 # enabled = false
 
