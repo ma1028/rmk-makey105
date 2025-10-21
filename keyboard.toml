@@ -78,12 +78,12 @@ LCtrl    LGui   LAlt Delete       Space B   C   D   RAlt  RGui RCtrl     Left   
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
-capslock.pin = "P0_24"
+capslock.pin = "P0_13"
 capslock.low_active = false
 # scrolllock.pin = "PA3"
 # scrolllock.low_active = true
 # Just ignore if no light pin is used for it
-numslock.pin = "P0_13"
+numslock.pin = "P0_22"
 numslock.low_active = false
 
 [ble]
