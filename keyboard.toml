@@ -99,7 +99,8 @@ adc_divider_total = 2820
 
 [storage]
 # Storage feature is enabled by default
-# enabled = false
+enabled = true
+num_sectors = 32
 
 # Whether to use the MCU's internal pull-up resistor, default to false 是否使用MCU的内部上拉电阻，默认为false
 #internal_pullup = true  # 使用mcu内部上拉电阻
