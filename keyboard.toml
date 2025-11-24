@@ -80,19 +80,12 @@ LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Lef
 # All light pins are high-active by default, uncomment if you want it to be low-active
 capslock.pin = "P0_24"
 capslock.low_active = false
-# scrolllock.pin = "PA3"
-# scrolllock.low_active = true
-# Just ignore if no light pin is used for it
 numslock.pin = "P0_13"
 numslock.low_active = false
 
 [ble]
 enabled = true
 battery_adc_pin = "P0_04"
-# charge_state.pin = "P0_07"
-# charge_state.low_active = true
-# charge_led.pin = "P0_08"
-# charge_led.low_active = false
 adc_divider_measured = 2000
 adc_divider_total = 2820
 
@@ -102,11 +95,7 @@ adc_divider_total = 2820
 enabled = true
 num_sectors = 32
 
-# Whether to use the MCU's internal pull-up resistor, default to false 是否使用MCU的内部上拉电阻，默认为false
-#internal_pullup = true  # 使用mcu内部上拉电阻
-#low_active = true
-
 [rmk]
 # The number of available BLE profiles 配对蓝牙设备的数量
-# ble_profiles_num = 6
+ble_profiles_num = 6
 debounce_time = 20  # 默认键去抖动时间（以毫秒为单位），默认值为 20。
