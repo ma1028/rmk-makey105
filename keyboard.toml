@@ -10,15 +10,15 @@ usb_enable = true
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["P0_10", "P1_06", "P1_04", "P1_02", "P0_30", "P1_11"]
-output_pins = ["P0_17", "P0_20", "P0_22", "P1_00", "P0_12", "P1_09", "P0_08", "P0_05", "P0_06", "P0_26", "P0_31", "P0_29", "P0_15", "P0_02", "P1_13", "P0_28", "P0_03", "P1_10", "P0_09"]
+row_pins = ["P0_10", "P1_06", "P1_04", "P1_02", "P0_30", "P1_11"]
+col_pins = ["P0_17", "P0_20", "P0_22", "P1_00", "P0_12", "P1_09", "P0_08", "P0_05", "P0_06", "P0_26", "P0_31", "P0_29", "P0_15", "P0_02", "P1_13", "P0_28", "P0_03", "P1_10", "P0_09"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
 rows = 6
 cols = 19
-layers = 4
+layers = 2
 matrix_map = """
 (0,0) (0,1) (0,2) (0,3) (0,4) (0,5) (0,6) (0,7) (0,8) (0,9) (0,10) (0,11) (0,12) (0,13) (0,14) (0,15) (0,16) (0,17) (0,18)
 (1,0) (1,1) (1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (1,9) (1,10) (1,11) (1,12)        (1,14) (1,15) (1,16) (1,17) (1,18)
@@ -52,30 +52,6 @@ LShift         Z     X     C     V     B     N   M   Comma Dot  Slash           
 LCtrl    LGui  LAlt  A     Space B     C     D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
 """
 
-# layer 2 :
-[[layer]]
-name = "eda_layer" #optional name for the layer
-keys = """
-Escape   F1   F2   F3  F4   F5  F6  F7  F8  F9    F10  F11       F12         PrintScreen  Delete    Home    End     PageUp     PageDown        
-Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal                    Backspace NumLock KpSlash KpAsterisk KpMinus
-Tab           Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9          
-CapsLock      A    S   D    F   G   H   J   K     L    Semicolon Quote                    Enter     Kp4     Kp5     Kp6        KpPlus
-LShift        Z    X   C    V   B   N   M   Comma Dot  Slash                 RShift       Up        Kp1     Kp2     Kp3          
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
-""" 
-
-# layer 3 :
-[[layer]]
-name = "davinci_layer" #optional name for the layer
-keys = """
-Escape   F1   F2   F3  F4   F5  F6  F7  F8  F9    F10  F11       F12         PrintScreen  Delete    Home    End     PageUp     PageDown        
-Grave    Kc1  Kc2  Kc3 Kc4  Kc5 Kc6 Kc7 Kc8 Kc9   Kc0  Minus     Equal                    Backspace NumLock KpSlash KpAsterisk KpMinus
-Tab           Q    W   E    R   T   Y   U   I     O    P         LeftBracket RightBracket Backslash Kp7     Kp8     Kp9          
-CapsLock      A    S   D    F   G   H   J   K     L    Semicolon Quote                    Enter     Kp4     Kp5     Kp6        KpPlus
-LShift        Z    X   C    V   B   N   M   Comma Dot  Slash                 RShift       Up        Kp1     Kp2     Kp3          
-LCtrl    LGui LAlt A  Space B   C   D   E   RAlt  RGui RCtrl                 Left         Down      Right   Kp0     KpDot      KpEnter
-"""
-
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
 capslock.pin = "P0_24"
@@ -92,10 +68,10 @@ adc_divider_total = 2820
 
 [storage]
 # Storage feature is enabled by default
-enabled = true
-num_sectors = 32
+# enabled = true
+# num_sectors = 32
 
 [rmk]
 # The number of available BLE profiles 配对蓝牙设备的数量
-ble_profiles_num = 6
+# ble_profiles_num = 6
 debounce_time = 20  # 默认键去抖动时间（以毫秒为单位），默认值为 20。
